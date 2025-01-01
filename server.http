@@ -1,0 +1,9 @@
+POST http://localhost:11434/api/chat
+
+{
+    "model" : "llama2:7b-chat-q4_0",
+    "messages": [{
+        "role" : "user",
+        "content" : "Hai"
+    }]
+}
